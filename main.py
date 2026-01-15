@@ -18,3 +18,5 @@ if flag:
     print(num, "n'est pas un nombre premier")
 else:
     print(num, "est un nombre premier")
+
+#Chouette !
