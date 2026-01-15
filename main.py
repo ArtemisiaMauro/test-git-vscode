@@ -1,10 +1,10 @@
 # Program to check if a number is prime or not
 # To take input from the user
-num = int(input("Enter a number: "))
+num = int(input("Entrez un nombre: "))
 # define a flag variable
 flag = False
 if num == 1:
-    print(num, "is not a prime number")
+    print(num, "n'est pas un nombre premier")
 elif num > 1:
 # check for factors
     for i in range(2, num):
@@ -15,6 +15,6 @@ elif num > 1:
             break
 # check if flag is True
 if flag:
-    print(num, "is not a prime number")
+    print(num, "n'est pas un nombre premier")
 else:
-    print(num, "is a prime number")
+    print(num, "est un nombre premier")
